@@ -79,24 +79,24 @@ WSGI_APPLICATION = 'django_forumm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
- DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dfgjic8qb3qtrl',
-        'HOST': 'ec2-3-234-131-8.compute-1.amazonaws.com',
-        'PORT': 5432,
-        'USER': 'wiafiigwuolegh',
-        'PASSWORD': 'a9986558821f080eb80522e7de980506ffece4132b89331d9390610f8862c1c5'
-    }
-}
-
-#django_heroku.settings(locals())
-# DATABASES = {
+#  DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'dfgjic8qb3qtrl',
+#         'HOST': 'ec2-3-234-131-8.compute-1.amazonaws.com',
+#         'PORT': 5432,
+#         'USER': 'wiafiigwuolegh',
+#         'PASSWORD': 'a9986558821f080eb80522e7de980506ffece4132b89331d9390610f8862c1c5'
 #     }
 # }
+
+#django_heroku.settings(locals())
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 # 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
