@@ -1,3 +1,3 @@
-# Twitter-clone-project
+# Twitter-clone
 It is a project based on twitter clone
-[Live deployment](https://twitter-clone-shivangi.herokuapp.com/)
+[Live deployment](https://twitterclone-shaheed.herokuapp.com/)
